@@ -9927,7 +9927,7 @@ if bouton_activite != " " :
                             
                         col3.metric(label = "" , 
                                     value = score_final_domicile , 
-                                    delta = difference_finale)
+                                    delta = str(difference_finale))
                     
                     
                         col6.metric(label = "" , 
@@ -9973,7 +9973,7 @@ if bouton_activite != " " :
                     
                         col6.metric(label = "" , 
                                     value = score_final_exterieur , 
-                                    delta = difference_finale)
+                                    delta = str(difference_finale))
                     
                     
                     

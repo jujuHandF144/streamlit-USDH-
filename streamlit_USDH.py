@@ -39,6 +39,8 @@ import plotly.express as px
     
 from PIL import Image
 
+from skimage import io
+
 
 
 

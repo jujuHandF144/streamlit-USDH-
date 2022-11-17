@@ -130,18 +130,18 @@ dico_couleurs = {"USDH"  : "red" ,
 
 ### DICTIONNAIRE DES LIENS VERS LES PHOTOS DES LOGOS ASSOCIEES A CHAQUE EQUIPE DU CHAMPIONNAT SM1 2022-2023 : 
 
-dico_logos = {"USDH" : "C:/Users/licke/Pictures/photos application USDH/logo_usdh.png" ,
-              "Pouzauges" : "C:/Users/licke/Pictures/photos application USDH/logo_pouzauges.png" ,
-              "Ligné" : "C:/Users/licke/Pictures/photos application USDH/logo_ligne.png" ,  
-              "Authion" : "C:/Users/licke/Pictures/photos application USDH/logo_authion.png" , 
-              "La Ferté" : "C:/Users/licke/Pictures/photos application USDH/logo_la_ferte.png" ,  
-              "St Berthevin" : "C:/Users/licke/Pictures/photos application USDH/logo_saint_berthevin.png" ,  
-              "Clisson" : "C:/Users/licke/Pictures/photos application USDH/logo_clisson.png" ,  
-              "RACC Nantes" : "C:/Users/licke/Pictures/photos application USDH/logo_racc_nantes.png" , 
-              "Chabossière" : "C:/Users/licke/Pictures/photos application USDH/logo_la_chabossiere.png" , 
-              "St Nazaire" : "C:/Users/licke/Pictures/photos application USDH/logo_saint_nazaire.png" , 
-              "Talmont" : "C:/Users/licke/Pictures/photos application USDH/logo_talmont.png", 
-              "La Ferrière" : "C:/Users/licke/Pictures/photos application USDH/logo_la_ferriere.png"} 
+dico_logos = {"USDH" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_USDH.png" ,
+              "Pouzauges" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_pouzauges.png" ,
+              "Ligné" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_ligne.png" ,  
+              "Authion" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_authion.png" , 
+              "La Ferté" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_la_ferte.png" ,  
+              "St Berthevin" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_saint_berthevin.png" ,  
+              "Clisson" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_clisson.png" ,  
+              "RACC Nantes" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_racc_nantes.png" , 
+              "Chabossière" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_la_chabossiere.png" , 
+              "St Nazaire" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_saint_nazaire.png" , 
+              "Talmont" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_talmont.png", 
+              "La Ferrière" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a2caea29014300bb543d7a7e96624ec5f340f/logo_la_ferriere.png"} 
 
 
 

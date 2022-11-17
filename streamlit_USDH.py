@@ -144,7 +144,7 @@ dico_logos = {"USDH" : "https://github.com/jujuHandF144/streamlit-USDH/blob/8f9a
     
 ## Fonction permettant d'importer la base de données des SM1 de l'USDH et de la nettoyer pour analyse : 
     
-def importation_et_nettoyage(link = "https://github.com/jujuHandF144/streamlit-USDH/blob/main/base_de_donnees_feuilles_de_match_SM1.xlsx") : 
+def importation_et_nettoyage(link = "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/base_de_donnees_feuilles_de_match_SM1.xlsx?raw=true") : 
     
     """Importe et nettoie rapidement la base de données des matchs de championnat des SM1 de l'USDH en 2022-2023."""
     
@@ -9606,7 +9606,7 @@ def histogram_differentiel_type_action_saison(fig , ax , data , type_action = ["
 
 ###        IMPORTATION DE LA BASE DE DONNEES DES ACTIONS DE L'EQUIPE SM1 DE L'USDH 2022-2023 (fichier excel) : 
 
-chemin_acces = "https://github.com/jujuHandF144/streamlit-USDH/blob/main/base_de_donnees_feuilles_de_match_SM1.xlsx"
+chemin_acces = "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/base_de_donnees_feuilles_de_match_SM1.xlsx?raw=true"
 
 df = importation_et_nettoyage(link = chemin_acces) 
 

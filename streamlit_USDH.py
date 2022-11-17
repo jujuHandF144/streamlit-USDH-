@@ -12581,7 +12581,7 @@ if bouton_activite != " " :
         
         col3.header("**USDH**")
         
-        logo_equipe_1 = load_image(dico_logos["USDH"]) 
+        logo_equipe_1 = Image.open(dico_logos["USDH"]) 
         col2.image(logo_equipe_1 , width = 115)
     
         

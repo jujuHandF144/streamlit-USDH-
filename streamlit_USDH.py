@@ -118,18 +118,18 @@ dico_couleurs = {"USDH"  : "red" ,
 
 ### DICTIONNAIRE DES LIENS VERS LES PHOTOS DES LOGOS ASSOCIEES A CHAQUE EQUIPE DU CHAMPIONNAT SM1 2022-2023 : 
 
-dico_logos = {"USDH" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_USDH.png" ,
-              "Pouzauges" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_pouzauges.png" ,
-              "Ligné" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_ligne.png" ,  
-              "Authion" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_authion.png" , 
-              "La Ferté" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_la_ferte.png" ,  
-              "St Berthevin" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_saint_berthevin.png" ,  
-              "Clisson" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_clisson.png" ,  
-              "RACC Nantes" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_racc_nantes.png" , 
-              "Chabossière" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_la_chabossiere.png" , 
-              "St Nazaire" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_saint_nazaire.png" , 
-              "Talmont" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_talmont.png", 
-              "La Ferrière" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_la_ferriere.png"} 
+dico_logos = {"USDH" : "https://www.saumur-aggloproprete.fr/wp-content/uploads/2021/04/Logo_USDH-s.png" ,
+              "Pouzauges" : "https://www.pvhb.fr/wp-content/uploads/2021/06/logo-pvhb.png" ,
+              "Ligné" : "https://fhbl.fr/public/2766/upload/theme/kal-theme-logo-footer_1.png" ,  
+              "Authion" : "https://www.loire-authion.fr/medias/2017/09/LOGO%20Club%20hand.PNG" , 
+              "La Ferté" : "https://www.vsfhandball.fr/media/uploaded/sites/21028/association/6363d9982f992_LogoVSFvectorisgris.png" ,
+              "St Berthevin" : "https://www.ussb-handball.fr/wp-content/uploads/2021/02/logo-ussb.png" ,  
+              "Clisson" : "https://handballorvault.kalisport.com/public/2158/upload/images/clubs-adverses/logo-clisson-handball.jpg" ,  
+              "RACC Nantes" : "https://racchand.com/public/1553/upload/theme/kal-theme-banniere-header-mobile_1.png" , 
+              "Chabossière" : "https://s1.static-clubeo.com/1200/uploads/lachabossiere-handball/logo__qfbiwc.png" , 
+              "St Nazaire" : "https://www.saintnazaire-associations.org/wp-content/uploads/2020/11/SNHB-LOGO-ECUSSON-336x336.png" , 
+              "Talmont" : "https://www.handball-85.org/wp-content/uploads/2016/12/35-talmont-handball.png", 
+              "La Ferrière" : "https://uslaferriere-handball.com/public/2248/upload/theme/kal-theme-logo-header_2.jpg"} 
 
 
 
@@ -140,6 +140,22 @@ dico_logos = {"USDH" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/mai
 
 
 ###                                                     FONCTIONS DE BASE :
+
+
+
+## Fonction permettant de lire une image prise sur internet :
+
+def load_image(file):
+
+    image = io.imread(file)
+
+    return image
+
+
+
+
+
+
     
     
 ## Fonction permettant d'importer la base de données des SM1 de l'USDH et de la nettoyer pour analyse : 
@@ -9818,13 +9834,13 @@ if bouton_activite != " " :
                 
                 col3.header(f"**{equipe_domicile.upper()}**")
                 
-                logo_equipe_1 = Image.open(dico_logos[equipe_domicile]) 
+                logo_equipe_1 = load_image(dico_logos[equipe_domicile]) 
                 col2.image(logo_equipe_1 , width = 115)
             
                 
                 col6.header(f"**{equipe_exterieur.upper()}**")
                 
-                logo_equipe_2 = Image.open(dico_logos[equipe_exterieur]) 
+                logo_equipe_2 = load_image(dico_logos[equipe_exterieur]) 
                 col7.image(logo_equipe_2 , width = 115)
                 
                     
@@ -12563,7 +12579,7 @@ if bouton_activite != " " :
         
         col3.header("**USDH**")
         
-        logo_equipe_1 = Image.open(dico_logos["USDH"]) 
+        logo_equipe_1 = load_image(dico_logos["USDH"]) 
         col2.image(logo_equipe_1 , width = 115)
     
         

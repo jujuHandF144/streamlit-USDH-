@@ -121,17 +121,17 @@ dico_couleurs = {"USDH"  : "red" ,
 ### DICTIONNAIRE DES LIENS VERS LES PHOTOS DES LOGOS ASSOCIEES A CHAQUE EQUIPE DU CHAMPIONNAT SM1 2022-2023 : 
 
 dico_logos = {"USDH" : "logo_USDH.png" ,
-              "Pouzauges" : "https://www.pvhb.fr/wp-content/uploads/2021/06/logo-pvhb.png" ,
-              "Ligné" : "https://fhbl.fr/public/2766/upload/theme/kal-theme-logo-footer_1.png" ,  
-              "Authion" : "https://www.loire-authion.fr/medias/2017/09/LOGO%20Club%20hand.PNG" , 
-              "La Ferté" : "https://www.vsfhandball.fr/media/uploaded/sites/21028/association/6363d9982f992_LogoVSFvectorisgris.png" ,
-              "St Berthevin" : "https://www.ussb-handball.fr/wp-content/uploads/2021/02/logo-ussb.png" ,  
-              "Clisson" : "https://handballorvault.kalisport.com/public/2158/upload/images/clubs-adverses/logo-clisson-handball.jpg" ,  
-              "RACC Nantes" : "https://racchand.com/public/1553/upload/theme/kal-theme-banniere-header-mobile_1.png" , 
-              "Chabossière" : "https://s1.static-clubeo.com/1200/uploads/lachabossiere-handball/logo__qfbiwc.png" , 
-              "St Nazaire" : "https://www.saintnazaire-associations.org/wp-content/uploads/2020/11/SNHB-LOGO-ECUSSON-336x336.png" , 
-              "Talmont" : "https://www.handball-85.org/wp-content/uploads/2016/12/35-talmont-handball.png", 
-              "La Ferrière" : "https://uslaferriere-handball.com/public/2248/upload/theme/kal-theme-logo-header_2.jpg"} 
+              "Pouzauges" : "logo_pouzauges.png" ,
+              "Ligné" : "logo_ligne.png" ,  
+              "Authion" : "logo_authion.png" , 
+              "La Ferté" : "logo_la_ferte.png" ,
+              "St Berthevin" : "logo_saintt_berthevin.png" ,  
+              "Clisson" : "logo_clisson.png" ,  
+              "RACC Nantes" : "logo_racc_nantes.png" , 
+              "Chabossière" : "logo_la_chabossiere.png" , 
+              "St Nazaire" : "logo_saint_nazaire.png" , 
+              "Talmont" : "logo_talmont.png", 
+              "La Ferrière" : "logo_la_ferriere.jpg"} 
 
 
 

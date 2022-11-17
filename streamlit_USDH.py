@@ -9836,13 +9836,13 @@ if bouton_activite != " " :
                 
                 col3.header(f"**{equipe_domicile.upper()}**")
                 
-                logo_equipe_1 = load_image(dico_logos[equipe_domicile]) 
+                logo_equipe_1 = Image.open(dico_logos[equipe_domicile]) 
                 col2.image(logo_equipe_1 , width = 115)
             
                 
                 col6.header(f"**{equipe_exterieur.upper()}**")
                 
-                logo_equipe_2 = load_image(dico_logos[equipe_exterieur]) 
+                logo_equipe_2 = Image.open(dico_logos[equipe_exterieur]) 
                 col7.image(logo_equipe_2 , width = 115)
                 
                     

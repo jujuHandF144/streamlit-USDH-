@@ -120,7 +120,7 @@ dico_couleurs = {"USDH"  : "red" ,
 
 ### DICTIONNAIRE DES LIENS VERS LES PHOTOS DES LOGOS ASSOCIEES A CHAQUE EQUIPE DU CHAMPIONNAT SM1 2022-2023 : 
 
-dico_logos = {"USDH" : "https://static.wixstatic.com/media/568f52_b257ef137d904164905e7c43c810f9f3~mv2.png/v1/fill/w_93,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20USDH%20-%20noir_preview_rev_1.png" ,
+dico_logos = {"USDH" : "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/logo_USDH.png" ,
               "Pouzauges" : "https://www.pvhb.fr/wp-content/uploads/2021/06/logo-pvhb.png" ,
               "Ligné" : "https://fhbl.fr/public/2766/upload/theme/kal-theme-logo-footer_1.png" ,  
               "Authion" : "https://www.loire-authion.fr/medias/2017/09/LOGO%20Club%20hand.PNG" , 

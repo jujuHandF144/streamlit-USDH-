@@ -39,7 +39,7 @@ import plotly.express as px
     
 from PIL import Image
 
-from skimage import io
+import imageio
 
 
 
@@ -149,7 +149,7 @@ dico_logos = {"USDH" : "https://www.saumur-aggloproprete.fr/wp-content/uploads/2
 
 def load_image(file):
 
-    image = io.imread(file)
+    image = imageio.imread(file)
 
     return image
 

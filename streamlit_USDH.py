@@ -9908,15 +9908,15 @@ if bouton_activite == " " :
         
      # Ajout d'un lien clickable vers mes pages web : 
             
-    st.sidebar.write("Julien Lickel, Data Analyst et joueur de l'USDH.")
-    st.sidebar.write("")
+    st.write("Julien Lickel, Data Analyst et joueur de l'USDH.")
+    st.write("")
 
     lien_linkedin = "https://www.linkedin.com/in/julien-lickel-b45001211/"
     lien_instagram = "https://www.instagram.com/l_analyste_data/"
 
 
-    st.sidebar.write("[LinkedIn](%s)" % lien_linkedin)
-    st.sidebar.write("[Instagram](%s)" % lien_instagram)
+    st.write("[LinkedIn](%s)" % lien_linkedin)
+    st.write("[Instagram](%s)" % lien_instagram)
     
     
 

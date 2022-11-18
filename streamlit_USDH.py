@@ -9689,11 +9689,59 @@ for i in range(5) :
     
     
     
-
-
-# SI l'utilisaeur a renseigné ce qu'il souhaite faire :
+# SI l'utilisateur N'a PAS renseigné ce qu'il souhaite faire :
     
-if bouton_activite != " " :
+if bouton_activite == " " :
+    
+    
+    
+    # Titre de l'application : 
+                                     
+    st.markdown(f"<h1 style='text-align: center; color: white;'>Application d'analyse de données pour l'Union Saumur Doué Handball.</h1>",
+                unsafe_allow_html = True)
+    
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+     
+    st.write("""--> Entièrement réalisée à partir des feuilles de match au format PDF disponibles sur le site de la FFHB, cette application web ne concernant à ce jour que l'équipe 
+                    Sénior Masculine 1 du club de handball de l'USDH a pour vocation d'extraire de ces feuilles de matchs des statistiques et graphiques intéressants afin d'aider à 
+                    une meilleure analyse et à la compréhension des matchs joués par cette équipe lors de la saison 2022-2023. 
+
+                    Cette application n'est accessible que par les personnes ayant connaissance du lien ci-dessus : elle ne devrait donc en théorie être visible que par des membres 
+                    de l'USDH.
+                
+                
+                
+                --> A chaque nouvelle journée de championnat, la feuille de match devant être saisie manuellement pour mettre à jour la base de données utilisée pour cette application, 
+                    il est possible que les données du dernier match ne soient pas immédiatement accessibles (quelques jours d'attente à prévoir).
+                    
+                    
+                    
+                 --> Enfin, n'ayant eu que quelques semaines pour développer cette application, elle n'est aujourd'hui utile que pour l'équipe SM1 du club, mais son usage pourrait potentiellement 
+                     être étendu aux autres équipes séniors du club (SF1, SF2, SM2, SM3).
+                     Cependant, pas mal de modifications devant être effectuer pour étendre cet outil aux autres équipes (adaptation du code informatique, saisie des feuilles de match) et mon emploi 
+                     du temps étant amené à évoluer, une telle manoeuvre prendrait plus ou moins de temps.
+                     N'hésitez pas à me signaler si une autre équipe du club souhaite disposer des mêmes analyses de match que les SM1 à l'heure actuelle.""")
+        
+        
+        
+       
+    
+    
+    
+    
+
+    
+    
+# SI l'utilisateur a renseigné ce qu'il souhaite faire :
+    
+else :    # bouton_activite != " " :
         
         
     
@@ -12607,10 +12655,12 @@ if bouton_activite != " " :
                 
         bouton_unite = st.sidebar.radio("Dans quelle unité souhaitez-vous afficher les statistiques et graphiques ?" , 
                                         [" " , "total" , "moyenne / match"])
-        
-        
-        
-        
+             
+             
+             
+             
+             
+
         
         
         for i in range(5) :
@@ -12638,9 +12688,7 @@ if bouton_activite != " " :
         
         
             
-            
-            
-            
+         
             
         # SI un choix a été fait pour l'unité des indicateurs : 
                             
@@ -12649,8 +12697,7 @@ if bouton_activite != " " :
             
             
             
-            
-            
+
             
             
             

@@ -9708,7 +9708,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- Description de l'outil.")
+    st.header("- 1) Description de l'outil.")
     
     
     for i in range(3) : 
@@ -9743,7 +9743,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- Accessibilité de l'outil.")
+    st.header("- 2) Accessibilité de l'outil.")
     
     
     for i in range(3) : 
@@ -9770,7 +9770,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- Temps de chargement.")
+    st.header("- 3) Temps de chargement.")
     
     
     
@@ -9789,6 +9789,31 @@ if bouton_activite == " " :
     
     
     
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+        
+        
+    st.header("- 4) Absence de chargement.")
+    
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+    st.write("""--> Si la page ne charge plus malgré la fait que vous avez sélectionnez une option via un bouton, vous pouvez cliquer sur le bouton aux 3 bandes horizontales (en haut à droite de votre écran) 
+                    et cliquer ensuite sur 'Rerun' afin de faire charger manuellement l'application.  
+                     Vous pouvez également régler, si vous le souhaitez, quelques paramètres visuels via ce même bouton aux 3 bandes (option 'Settings').""")
+    
+    
+    
+    
     for i in range(5) : 
         
         st.write("")
@@ -9796,7 +9821,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- Gestion des erreurs / bugs.")
+    st.header("- 5) Gestion des erreurs / bugs.")
     
     
     
@@ -9819,7 +9844,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- Mise en veille de l'application.")
+    st.header("- 6) Mise en veille de l'application.")
     
     
     
@@ -9833,6 +9858,7 @@ if bouton_activite == " " :
                     'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.""")
     
     
+    
     for i in range(5) : 
         
         st.write("")
@@ -9840,7 +9866,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- Extension de l'application à un usage plus large.")
+    st.header("- 7) Extension de l'application à un usage plus large.")
     
     
     
@@ -9860,7 +9886,7 @@ if bouton_activite == " " :
     
     
     
-    for i in range(5) : 
+    for i in range(7) : 
         
         st.write("")
         
@@ -9868,6 +9894,29 @@ if bouton_activite == " " :
         
         
     st.write("Bonne navigation !")
+    
+    
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+        
+        
+     # Ajout d'un lien clickable vers mes pages web : 
+            
+    st.sidebar.write("Julien Lickel, Data Analyst et joueur de l'USDH.")
+    st.sidebar.write("")
+
+    lien_linkedin = "https://www.linkedin.com/in/julien-lickel-b45001211/"
+    lien_instagram = "https://www.instagram.com/l_analyste_data/"
+
+
+    st.sidebar.write("[LinkedIn](%s)" % lien_linkedin)
+    st.sidebar.write("[Instagram](%s)" % lien_instagram)
     
     
 

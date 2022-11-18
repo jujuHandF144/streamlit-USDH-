@@ -9711,34 +9711,64 @@ if bouton_activite == " " :
      
     st.write("""--> Entièrement réalisée à partir des feuilles de match au format PDF disponibles sur le site de la FFHB, cette application web ne concernant à ce jour que l'équipe  
                     Sénior Masculine 1 du club de handball de l'USDH a pour vocation d'extraire de ces feuilles de matchs des statistiques et graphiques intéressants afin d'aider à   
-                    une meilleure analyse et à la compréhension des matchs joués par cette équipe lors de la saison 2022-2023.  
+                    une meilleure analyse et à la compréhension des matchs joués par cette équipe lors de la saison 2022-2023.""")  
+    
+    
+    for i in range(2) : 
+        
+        st.write("")
                     
 
-                --> Cette application n'est accessible que par les personnes ayant connaissance du lien ci-dessus : elle ne devrait donc en théorie être visible que par des membres 
-                    de l'USDH.  
+    st.write("""--> Cette application n'est accessible que par les personnes ayant connaissance du lien ci-dessus : elle ne devrait donc en théorie être visible que par des membres 
+                    de l'USDH.""") 
+    
+    
+    for i in range(2) : 
+        
+        st.write("")
                     
                     
                 
-                --> A chaque nouvelle journée de championnat, la feuille de match devant être saisie manuellement pour mettre à jour la base de données utilisée pour cette application, 
-                    il est possible que les données du dernier match ne soient pas immédiatement accessibles (quelques jours d'attente à prévoir).  
+    st.write("""--> A chaque nouvelle journée de championnat, la feuille de match devant être saisie manuellement pour mettre à jour la base de données utilisée pour cette application, 
+                    il est possible que les données du dernier match ne soient pas immédiatement accessibles (quelques jours d'attente sont à prévoir). """)
+    
+    
+    for i in range(2) : 
+        
+        st.write("")
                     
                     
                     
-                 --> A priori, tous les bugs et toutes les erreurs ont été résolues avant le lancement de cette application : cependant, si de telles anomalies devaient subvenir, 
-                     ne pas hésiter à me contacter afin de me pencher sur leur résolution.  
+    st.write("""--> A priori, tous les bugs et toutes les erreurs ont été résolues avant le lancement de cette application : cependant, si de telles anomalies devaient subvenir, 
+                    ne pas hésiter à me contacter afin de me pencher sur leur résolution.""")
+    
+    
+    for i in range(2) : 
+        
+        st.write("")
                      
                      
                      
-                 --> Il est possible qu'un NON usage prolongé de l'application entraîne sa mise en veille : dans ce cas, il vous sera sûrement demandé de cliquer sur un bouton afin de  
-                     'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.  
+    st.write("""--> Il est possible qu'un NON usage prolongé de l'application entraîne sa mise en veille : dans ce cas, il vous sera sûrement demandé de cliquer sur un bouton afin de  
+                    'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.""")
+    
+    
+    for i in range(2) : 
+        
+        st.write("")
                      
      
                     
-                 --> Enfin, n'ayant eu que quelques semaines pour développer cette application, elle n'est aujourd'hui utile que pour l'équipe SM1 du club, mais son usage pourrait potentiellement 
-                     être étendu aux autres équipes séniors du club (SF1, SF2, SM2, SM3).
-                     Cependant, pas mal de modifications devant être effectuer pour étendre cet outil aux autres équipes (adaptation du code informatique, saisie des feuilles de match) et mon emploi 
-                     du temps étant amené à évoluer, une telle manoeuvre prendrait plus ou moins de temps.
-                     N'hésitez pas à me signaler si une autre équipe du club souhaite disposer des mêmes analyses de match que les SM1 à l'heure actuelle.""")
+    st.write("""--> Enfin, n'ayant eu que quelques semaines pour développer cette application, elle n'est aujourd'hui utile que pour l'équipe SM1 du club, mais son usage pourrait potentiellement 
+                    être étendu aux autres équipes séniors du club (SF1, SF2, SM2, SM3).
+                    Cependant, pas mal de modifications devant être effectuer pour étendre cet outil aux autres équipes (adaptation du code informatique, saisie des feuilles de match) et mon emploi 
+                    du temps étant amené à évoluer, une telle manoeuvre prendrait plus ou moins de temps.
+                    N'hésitez pas à me signaler si une autre équipe du club souhaite disposer des mêmes analyses de match que les SM1 à l'heure actuelle.""")
+    
+    
+    for i in range(2) : 
+        
+        st.write("")
         
         
         

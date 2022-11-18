@@ -9709,19 +9709,30 @@ if bouton_activite == " " :
         
         
      
-    st.write("""--> Entièrement réalisée à partir des feuilles de match au format PDF disponibles sur le site de la FFHB, cette application web ne concernant à ce jour que l'équipe 
-                    Sénior Masculine 1 du club de handball de l'USDH a pour vocation d'extraire de ces feuilles de matchs des statistiques et graphiques intéressants afin d'aider à 
-                    une meilleure analyse et à la compréhension des matchs joués par cette équipe lors de la saison 2022-2023. 
+    st.write("""--> Entièrement réalisée à partir des feuilles de match au format PDF disponibles sur le site de la FFHB, cette application web ne concernant à ce jour que l'équipe  
+                    Sénior Masculine 1 du club de handball de l'USDH a pour vocation d'extraire de ces feuilles de matchs des statistiques et graphiques intéressants afin d'aider à   
+                    une meilleure analyse et à la compréhension des matchs joués par cette équipe lors de la saison 2022-2023.  
+                    
 
-                    Cette application n'est accessible que par les personnes ayant connaissance du lien ci-dessus : elle ne devrait donc en théorie être visible que par des membres 
-                    de l'USDH.
-                
-                
+                --> Cette application n'est accessible que par les personnes ayant connaissance du lien ci-dessus : elle ne devrait donc en théorie être visible que par des membres 
+                    de l'USDH.  
+                    
+                    
                 
                 --> A chaque nouvelle journée de championnat, la feuille de match devant être saisie manuellement pour mettre à jour la base de données utilisée pour cette application, 
-                    il est possible que les données du dernier match ne soient pas immédiatement accessibles (quelques jours d'attente à prévoir).
+                    il est possible que les données du dernier match ne soient pas immédiatement accessibles (quelques jours d'attente à prévoir).  
                     
                     
+                    
+                 --> A priori, tous les bugs et toutes les erreurs ont été résolues avant le lancement de cette application : cependant, si de telles anomalies devaient subvenir, 
+                     ne pas hésiter à me contacter afin de me pencher sur leur résolution.  
+                     
+                     
+                     
+                 --> Il est possible qu'un NON usage prolongé de l'application entraîne sa mise en veille : dans ce cas, il vous sera sûrement demandé de cliquer sur un bouton afin de  
+                     'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.  
+                     
+     
                     
                  --> Enfin, n'ayant eu que quelques semaines pour développer cette application, elle n'est aujourd'hui utile que pour l'équipe SM1 du club, mais son usage pourrait potentiellement 
                      être étendu aux autres équipes séniors du club (SF1, SF2, SM2, SM3).

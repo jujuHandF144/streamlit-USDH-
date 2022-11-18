@@ -9718,8 +9718,8 @@ if bouton_activite == " " :
         
         
      
-    st.write("""--> Entièrement réalisée à partir des feuilles de match au format PDF disponibles sur le site de la FFHB, cette application web ne concernant à ce jour que l'équipe  
-                    Sénior Masculine 1 du club de handball de l'USDH a pour vocation d'extraire de ces feuilles de matchs des statistiques et graphiques intéressants afin d'aider à   
+    st.write("""--> Entièrement réalisée à partir des feuilles de match au format PDF disponibles sur le site de la FFHB, cette application web ne concernant à ce jour que l'équipe 
+                    Sénior Masculine 1 du club de handball de l'USDH a pour vocation d'extraire de ces feuilles de matchs des statistiques et graphiques intéressants afin d'aider à 
                     une meilleure analyse et à la compréhension des matchs joués par cette équipe lors de la saison 2022-2023.""")  
     
     
@@ -9754,7 +9754,7 @@ if bouton_activite == " " :
 
     st.write("""--> Cette application n'est accessible QUE par les personnes ayant connaissance du lien ci-dessus : elle ne peut pas êtré trouvée via une recherche internet, 
                     mais le code informatique utilisé pour son bon fonctionnement est quant à lui stocké sur un dépôt public (car le rendre privé ne permet pas à l'application de fonctionner correctement) : aisni, 
-                    toute personne ayant de bonnes connaissances en data et en programmation peut potentiellement avoir accès au code que j'ai créé.
+                    toute personne ayant de bonnes connaissances en data et en programmation peut potentiellement avoir accès au code que j'ai créé. 
                     Contenant des analyses particulièrement centrées sur l'USDH, il serait donc plus judicieux que le lien de cette application reste connu uniquement des membres et licenciés de l'USDH.  
                     Je ne fournirai pour ma part le lien à aucune autre personne que celles du club.""") 
     
@@ -9781,7 +9781,7 @@ if bouton_activite == " " :
         
         
     st.write("""--> Certains graphiques et/ou statistiques nécessitent de réaliser des calculs longs et complexes, qui utilisent des ressources importantes en termes de mémoire de l'ordinateur : 
-                    il faut donc parfois attendre quelques dizaines de secondes avant de voir enfin s'afficher le résultat : tant que le bouton 'running' apparaît en haut à droite de votre écran,  
+                    il faudra donc parfois attendre quelques dizaines de secondes avant de voir enfin s'afficher le résultat : tant que le bouton 'running' apparaît en haut à droite de votre écran,  
                     cela signifie que le calcul est en cours et que vous n'avez qu'à patienter.  
                     De la même manière, avec ce genre d'application, le fait de choisir une option via un bouton entraîne le rechargement de tout ce qui avait déjà été chargé pécédemment, d'ou 
                     un temps d'attente logique de quelques dizaines de secondes par moments dont je m'excuse par avance.""")
@@ -9809,7 +9809,7 @@ if bouton_activite == " " :
         
     st.write("""--> Si la page ne charge plus malgré la fait que vous avez sélectionnez une option via un bouton, vous pouvez cliquer sur le bouton aux 3 bandes horizontales (en haut à droite de votre écran) 
                     et cliquer ensuite sur 'Rerun' afin de faire charger manuellement l'application.  
-                     Vous pouvez également régler, si vous le souhaitez, quelques paramètres visuels via ce même bouton aux 3 bandes (option 'Settings').""")
+                    Vous pouvez également régler, si vous le souhaitez, quelques paramètres visuels grâce à ce même bouton aux 3 bandes (option 'Settings').""")
     
     
     
@@ -9832,7 +9832,7 @@ if bouton_activite == " " :
                     
                     
     st.write("""--> A priori, tous les bugs et toutes les erreurs ont été résolues avant le lancement de cette application : cependant, si de telles anomalies devaient subvenir (message 
-                    d'erreur et/ou encadré rouge incompréhensible), ne pas hésiter à me contacter afin que je me penche sur leur résolution.""")
+                    d'erreur et/ou apparition d'un encadré rouge incompréhensible), ne pas hésiter à me contacter afin que je me penche sur leur résolution.""")
     
     
     
@@ -9877,7 +9877,7 @@ if bouton_activite == " " :
      
                     
     st.write("""--> N'ayant eu que quelques semaines pour développer cette application, elle n'est aujourd'hui utile que pour l'équipe SM1 du club, mais son usage pourrait potentiellement 
-                    être étendu aux autres équipes séniors du club (SF1, SF2, SM2, SM3).
+                    être étendu aux autres équipes séniors du club (SF1, SF2, SM2, SM3). 
                     Cependant, pas mal de modifications devant être effectuer pour étendre cet outil aux autres équipes (adaptation du code informatique, saisie des feuilles de match) et mon emploi 
                     du temps étant amené à évoluer, une telle manoeuvre prendrait plus ou moins de temps.
                     N'hésitez pas à me signaler si une autre équipe du club souhaite disposer des mêmes analyses de match que les SM1 à l'heure actuelle.""")

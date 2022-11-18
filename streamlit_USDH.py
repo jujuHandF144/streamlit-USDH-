@@ -9781,7 +9781,7 @@ if bouton_activite == " " :
         
         
     st.write("""--> Certains graphiques et/ou statistiques nécessitent de réaliser des calculs longs et complexes, qui utilisent des ressources importantes en termes de mémoire de l'ordinateur : 
-                    il faudra donc parfois attendre quelques dizaines de secondes avant de voir enfin s'afficher le résultat : tant que le bouton 'running' apparaît en haut à droite de votre écran,  
+                    il faudra donc parfois attendre quelques dizaines de secondes avant de voir enfin s'afficher le résultat : tant que le bouton 'running' apparaît en haut à droite de votre écran, 
                     cela signifie que le calcul est en cours et que vous n'avez qu'à patienter.  
                     De la même manière, avec ce genre d'application, le fait de choisir une option via un bouton entraîne le rechargement de tout ce qui avait déjà été chargé pécédemment, d'ou 
                     un temps d'attente logique de quelques dizaines de secondes par moments dont je m'excuse par avance.""")
@@ -9854,7 +9854,7 @@ if bouton_activite == " " :
                      
                      
                      
-    st.write("""--> Il est possible qu'un NON usage prolongé de l'application entraîne sa mise en veille : dans ce cas, il vous sera sûrement demandé de cliquer sur un bouton afin de  
+    st.write("""--> Il est possible qu'un NON usage prolongé de l'application entraîne sa mise en veille : dans ce cas, il vous sera sûrement demandé de cliquer sur un bouton afin de 
                     'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.""")
     
     

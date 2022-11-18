@@ -9966,36 +9966,7 @@ else :    # bouton_activite != " " :
         
         
         
-        
-        
-        
-        for i in range(8) : 
-    
-            st.sidebar.write("")
-            
-            
-            
-            
-            
-        # Ajout d'un lien clickable vers mes pages web : 
-            
-        st.sidebar.write("application créée par Julien Lickel :")
-        st.sidebar.write("")
-        
-        lien_linkedin = "https://www.linkedin.com/in/julien-lickel-b45001211/"
-        lien_instagram = "https://www.instagram.com/l_analyste_data/"
-        
-        
-        st.sidebar.write("[LinkedIn](%s)" % lien_linkedin)
-        st.sidebar.write("[Instagram](%s)" % lien_instagram) 
-            
-            
-        
-        
-        
-        
-        
-        
+
         
         
         # SI l'utilisateur a renseigné une journée de championnat :
@@ -12849,37 +12820,10 @@ else :    # bouton_activite != " " :
              
              
              
-             
-             
 
         
         
-        for i in range(5) :
-    
-            st.sidebar.write("")
-            
-            
-            
-            
-            
-        # Ajout d'un lien clickable vers mes pages web : 
-            
-        st.sidebar.write("application créée par Julien Lickel :")
-        st.sidebar.write("")
         
-        lien_linkedin = "https://www.linkedin.com/in/julien-lickel-b45001211/"
-        lien_instagram = "https://www.instagram.com/l_analyste_data/"
-        
-        
-        st.sidebar.write("[LinkedIn](%s)" % lien_linkedin)
-        st.sidebar.write("[Instagram](%s)" % lien_instagram)
-        
-        
-
-        
-        
-            
-         
             
         # SI un choix a été fait pour l'unité des indicateurs : 
                             

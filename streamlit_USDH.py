@@ -9898,7 +9898,7 @@ if bouton_activite == " " :
     
     
     
-    for i in range(3) : 
+    for i in range(5) : 
         
         st.write("")
         
@@ -9909,7 +9909,6 @@ if bouton_activite == " " :
      # Ajout d'un lien clickable vers mes pages web : 
             
     st.write("Julien Lickel, Data Analyst et joueur de l'USDH.")
-    st.write("")
 
     lien_linkedin = "https://www.linkedin.com/in/julien-lickel-b45001211/"
     lien_instagram = "https://www.instagram.com/l_analyste_data/"

@@ -9961,7 +9961,7 @@ else :    # bouton_activite != " " :
         # Création d'un bouton DANS LE MENU LATERAL permettant de choisir la journée de championnat qui l'intéresse :
             
         bouton_journee = st.sidebar.selectbox("Choisissez le match de l'USDH à analyser :" , 
-                                             [" "] + [f"J{i}" for i in range(1,23)])
+                                             [" "] + list(dico_rencontres_USDH).keys())
         
         
         

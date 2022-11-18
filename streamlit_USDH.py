@@ -9702,6 +9702,15 @@ if bouton_activite == " " :
     
     
     
+    for i in range(5) : 
+        
+        st.write("")
+        
+        
+        
+    st.header("Description de l'outil.")
+    
+    
     for i in range(3) : 
         
         st.write("")
@@ -9717,33 +9726,103 @@ if bouton_activite == " " :
     for i in range(2) : 
         
         st.write("")
-                    
-
-    st.write("""--> Cette application n'est accessible que par les personnes ayant connaissance du lien ci-dessus : elle ne devrait donc en théorie être visible que par des membres 
-                    de l'USDH.""") 
-    
-    
-    for i in range(2) : 
         
-        st.write("")
-                    
-                    
+        
+            
                 
     st.write("""--> A chaque nouvelle journée de championnat, la feuille de match devant être saisie manuellement pour mettre à jour la base de données utilisée pour cette application, 
                     il est possible que les données du dernier match ne soient pas immédiatement accessibles (quelques jours d'attente sont à prévoir). """)
     
     
-    for i in range(2) : 
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+        
+        
+    st.header("Accessibilité de l'outil.")
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+                    
+
+    st.write("""--> Cette application n'est accessible QUE par les personnes ayant connaissance du lien ci-dessus : elle ne peut pas êtré trouvée via une recherche internet, 
+                    mais le code informatique utilisé pour son bon fonctionnement est quant à lui stocké sur un dépôt public (car le rendre privé ne permet pas à l'application de fonctionner correctement) : aisni, 
+                    toute personne ayant de bonnes connaissances en data et en programmation peut potentiellement avoir accès au code que j'ai créé.
+                    Contenant des analyses particulièrement centrées sur l'USDH, il serait donc plus judicieux que le lien de cette application reste connu uniquement des membres et licenciés de l'USDH.""") 
+    
+    
+ 
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+        
+        
+    st.header("Temps de chargement.")
+    
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+    st.write("""--> Certains graphiques et/ou statistiques nécessitent de réaliser des calculs longs et complexes, qui utilisent des ressources importantes en termes de mémoire de l'ordinateur : 
+                    il faut donc parfois attendre quelques dizaines de secondes avant de voir enfin s'afficher le résultat : tant que le bouton 'running' apparaît en haut à droite de votre écran,  
+                    cela signifie que le calcul est en cours et que vous n'avez qu'à patienter.  
+                    De la même manière, avec ce genre d'application, le fait de choisir une option via un bouton entraîne le rechargement de tout ce qui avait déjà été chargé pécédemment, d'ou 
+                    un temps d'attente logique de quelques dizaines de secondes par moments dont je m'excuse par avance.""")
+    
+    
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+        
+    st.header("Gestion des erreurs / bugs.")
+    
+    
+    
+    for i in range(3) : 
         
         st.write("")
                     
                     
                     
-    st.write("""--> A priori, tous les bugs et toutes les erreurs ont été résolues avant le lancement de cette application : cependant, si de telles anomalies devaient subvenir, 
-                    ne pas hésiter à me contacter afin de me pencher sur leur résolution.""")
+    st.write("""--> A priori, tous les bugs et toutes les erreurs ont été résolues avant le lancement de cette application : cependant, si de telles anomalies devaient subvenir (message 
+                    d'erreur et/ou encadré rouge incompréhensible), ne pas hésiter à me contacter afin que je me penche sur leur résolution.""")
     
     
-    for i in range(2) : 
+    
+    
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+        
+    st.header("Mise en veille de l'application.")
+    
+    
+    
+    for i in range(3) : 
         
         st.write("")
                      
@@ -9753,20 +9832,31 @@ if bouton_activite == " " :
                     'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.""")
     
     
-    for i in range(2) : 
+    for i in range(3) : 
+        
+        st.write("")
+        
+        
+        
+        
+    st.header("Extension de l'application à un usage plus large.")
+    
+    
+    
+    for i in range(3) : 
         
         st.write("")
                      
      
                     
-    st.write("""--> Enfin, n'ayant eu que quelques semaines pour développer cette application, elle n'est aujourd'hui utile que pour l'équipe SM1 du club, mais son usage pourrait potentiellement 
+    st.write("""--> N'ayant eu que quelques semaines pour développer cette application, elle n'est aujourd'hui utile que pour l'équipe SM1 du club, mais son usage pourrait potentiellement 
                     être étendu aux autres équipes séniors du club (SF1, SF2, SM2, SM3).
                     Cependant, pas mal de modifications devant être effectuer pour étendre cet outil aux autres équipes (adaptation du code informatique, saisie des feuilles de match) et mon emploi 
                     du temps étant amené à évoluer, une telle manoeuvre prendrait plus ou moins de temps.
                     N'hésitez pas à me signaler si une autre équipe du club souhaite disposer des mêmes analyses de match que les SM1 à l'heure actuelle.""")
     
     
-    for i in range(2) : 
+    for i in range(3) : 
         
         st.write("")
         

@@ -9708,7 +9708,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("Description de l'outil.")
+    st.header("- Description de l'outil.")
     
     
     for i in range(3) : 
@@ -9735,7 +9735,7 @@ if bouton_activite == " " :
     
     
     
-    for i in range(3) : 
+    for i in range(5) : 
         
         st.write("")
         
@@ -9743,7 +9743,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("Accessibilité de l'outil.")
+    st.header("- Accessibilité de l'outil.")
     
     
     for i in range(3) : 
@@ -9755,13 +9755,14 @@ if bouton_activite == " " :
     st.write("""--> Cette application n'est accessible QUE par les personnes ayant connaissance du lien ci-dessus : elle ne peut pas êtré trouvée via une recherche internet, 
                     mais le code informatique utilisé pour son bon fonctionnement est quant à lui stocké sur un dépôt public (car le rendre privé ne permet pas à l'application de fonctionner correctement) : aisni, 
                     toute personne ayant de bonnes connaissances en data et en programmation peut potentiellement avoir accès au code que j'ai créé.
-                    Contenant des analyses particulièrement centrées sur l'USDH, il serait donc plus judicieux que le lien de cette application reste connu uniquement des membres et licenciés de l'USDH.""") 
+                    Contenant des analyses particulièrement centrées sur l'USDH, il serait donc plus judicieux que le lien de cette application reste connu uniquement des membres et licenciés de l'USDH.  
+                    Je ne fournirai pour ma part le lien à aucune autre personne que celles du club.""") 
     
     
  
     
     
-    for i in range(3) : 
+    for i in range(5) : 
         
         st.write("")
         
@@ -9769,7 +9770,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("Temps de chargement.")
+    st.header("- Temps de chargement.")
     
     
     
@@ -9788,14 +9789,14 @@ if bouton_activite == " " :
     
     
     
-    for i in range(3) : 
+    for i in range(5) : 
         
         st.write("")
         
         
         
         
-    st.header("Gestion des erreurs / bugs.")
+    st.header("- Gestion des erreurs / bugs.")
     
     
     
@@ -9811,14 +9812,14 @@ if bouton_activite == " " :
     
     
     
-    for i in range(3) : 
+    for i in range(5) : 
         
         st.write("")
         
         
         
         
-    st.header("Mise en veille de l'application.")
+    st.header("- Mise en veille de l'application.")
     
     
     
@@ -9832,14 +9833,14 @@ if bouton_activite == " " :
                     'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.""")
     
     
-    for i in range(3) : 
+    for i in range(5) : 
         
         st.write("")
         
         
         
         
-    st.header("Extension de l'application à un usage plus large.")
+    st.header("- Extension de l'application à un usage plus large.")
     
     
     
@@ -9856,9 +9857,20 @@ if bouton_activite == " " :
                     N'hésitez pas à me signaler si une autre équipe du club souhaite disposer des mêmes analyses de match que les SM1 à l'heure actuelle.""")
     
     
-    for i in range(3) : 
+    
+    
+    
+    for i in range(5) : 
         
         st.write("")
+        
+        
+        
+        
+    st.write("Bonne navigation !")
+    
+    
+
         
         
         

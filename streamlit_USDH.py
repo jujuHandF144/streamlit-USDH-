@@ -86,10 +86,12 @@ st.set_page_config(layout = "wide",
 dico_rencontres_USDH = {"J1" : ("Pouzauges" , "USDH") ,  
                         "J2" : ("USDH" , "Ligné") , 
                         "J3" : ("Authion" , "USDH") , 
-                        "J4" : ("La Ferté" , "USDH") , 
+                        "J4" : ("Connerre" , "USDH") , 
                         "J5" : ("USDH" , "St Berthevin") , 
                         "J6" : ("USDH" , "Pouzauges") , 
-                        "J7" : ("Ligné" , "USDH")}
+                        "J7" : ("Ligné" , "USDH") , 
+                        "J8" : ("USDH" , "Authion") , 
+                        "J9" : ("USDH" , "Connerre")}
 
 
 
@@ -99,11 +101,11 @@ dico_rencontres_USDH = {"J1" : ("Pouzauges" , "USDH") ,
 
 ### DICTIONNAIRE DES COULEURS ASSOCIEES A CHAQUE EQUIPE DU CHAMPIONNAT SM1 2022-2023 : 
 
-dico_couleurs = {"USDH"  : "red" , 
+dico_couleurs = {"USDH" : "red" ,
                  "Pouzauges" : "#252522" , # noir et blanc
                  "Ligné" : "#E8E217" ,  # jaune
                  "Authion" : "#AD15C8" , # violet
-                 "La Ferté" : "#1957DB" ,   # bleu
+                 "Connerre" : "#1957DB" ,   # bleu
                  "St Berthevin" : "#387A2D" ,  # vert foncé
                  "Clisson" : "#D205AD" ,  # noir et rose foncé
                  "RACC Nantes" : "#37B921" , # vert 
@@ -124,7 +126,7 @@ dico_logos = {"USDH" : "logo_USDH.png" ,
               "Pouzauges" : "logo_pouzauges.png" ,
               "Ligné" : "logo_ligne.png" ,  
               "Authion" : "logo_authion.png" , 
-              "La Ferté" : "logo_la_ferte.png" ,
+              "Connerre" : "logo_la_ferte.png" ,
               "St Berthevin" : "logo_saintt_berthevin.png" ,  
               "Clisson" : "logo_clisson.png" ,  
               "RACC Nantes" : "logo_racc_nantes.png" , 

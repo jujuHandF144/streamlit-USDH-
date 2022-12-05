@@ -226,7 +226,7 @@ def importation_et_nettoyage(link = "https://github.com/jujuHandF144/streamlit-U
     
 ## Fonction permettant de retourner les périodes d'infériorité / d'égalité / de supériorité numérique de l'USDH lors d'un match précis (récupérées à l'oeil grâce à un graphique des périodes d'exclusion de l'USDH et de son adversaire lors de ce match) :
     
-def periodes_situation_numerique_USDH(data = df , journee = "J1" , situation = "infériorité numérique" , format_dates = "float") :
+def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infériorité numérique" , format_dates = "float") :
     
     
     """Retourne la liste de TOUTES les périodes (date_debut , date_fin) jouées par l'USDH dans le type de situation numérique 

@@ -226,7 +226,7 @@ def importation_et_nettoyage(link = "https://github.com/jujuHandF144/streamlit-U
     
 ## Fonction permettant de retourner les périodes d'infériorité / d'égalité / de supériorité numérique de l'USDH lors d'un match précis (récupérées à l'oeil grâce à un graphique des périodes d'exclusion de l'USDH et de son adversaire lors de ce match) :
     
-def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infériorité numérique" , format_dates = "float") :
+def periodes_situation_numerique_USDH(data = df , journee = "J1" , situation = "infériorité numérique" , format_dates = "float") :
     
     
     """Retourne la liste de TOUTES les périodes (date_debut , date_fin) jouées par l'USDH dans le type de situation numérique 
@@ -435,7 +435,7 @@ def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infé
 
 
 
-        # Journée 4 : La Ferté - USDH
+        # Journée 4 : Connerre - USDH
 
         elif journee == "J4" : 
 
@@ -568,8 +568,9 @@ def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infé
     
     
     
-        
     
+ 
+
     
     
     
@@ -606,7 +607,93 @@ def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infé
             else : 
 
                 raise ValueError("paramètre attendu pour l'argument 'situation' : 'infériorité numérique' , 'égalité numérique' ou 'supériorité numérique'.")
+
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        # Journée 8 : USDH - Authion (retour)
+
+        elif journee == "J8" : 
+
+
+            if situation in ["infériorité numérique" , "égalité numérique" , "supériorité numérique"] :
+
+
+                if situation == "infériorité numérique" : 
+
+                    periodes = []
+
+
+                    
+
+                elif situation == "supériorité numérique" : 
+
+                    periodes = [('23:02' , '25:02') , ('50:31' , '52:31') , ('54:23' , '56:23') , ('58:53' , '60:00')]
+
+
+
+
+
+                else :   # situation == "égalité numérique" : 
+
+                    periodes = [('0:00' , '23:02') , ('25:02' , '50:31') , ('52:31' , '54:23') , ('56:23' , '58:53')]
+
+                    
+
+            else : 
+
+                raise ValueError("paramètre attendu pour l'argument 'situation' : 'infériorité numérique' , 'égalité numérique' ou 'supériorité numérique'.")
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+        # Journée 9 : USDH - Connerre (retour)
+
+        elif journee == "J9" : 
+
+
+            if situation in ["infériorité numérique" , "égalité numérique" , "supériorité numérique"] :
+
+
+                if situation == "infériorité numérique" : 
+
+                    periodes = [('21:43' , '22:46') , ('32:44' , '34:44') , ('38:37' , '40:37') , ('55:21' , '57:21')]
+
+
+                    
+
+                elif situation == "supériorité numérique" : 
+
+                    periodes = [('19:43' , '20:46') , ('28:12' , '30:12') , ('45:00' , '47:00') , ('58:56' , '60:00')]
+
+
+
+
+
+                else :   # situation == "égalité numérique" : 
+
+                    periodes = [('0:00' , '19:43') , ('20:46' , '21:43') , ('22:46' , '28:12') , ('30:12' , '32:44') , 
+                                ('34:44' , '38:37') , ('40:37' , '45:00') , ('47:00' , '55:21') , ('57:21' , '58:56')]
+
+                    
+
+            else : 
+
+                raise ValueError("paramètre attendu pour l'argument 'situation' : 'infériorité numérique' , 'égalité numérique' ou 'supériorité numérique'.")
     
     
     
@@ -621,6 +708,9 @@ def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infé
             return periodes
         
 
+        
+        
+        
 
         elif format_dates == "float" : 
 
@@ -630,15 +720,19 @@ def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infé
             periodes = [(en_minutes(periode[0]) , en_minutes(periode[1])) for periode in periodes]
 
             return periodes
+        
+        
+        
 
 
         else : 
 
             raise ValueError("paramètre attendu pour l'argument 'format_dates' : 'float' ou 'str'.")
+            
+            
+            
+            
 
-
-    
-    
     
     
     

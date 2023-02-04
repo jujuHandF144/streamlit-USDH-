@@ -14316,54 +14316,56 @@ else :    # bouton_activite != " " :
                                         
                                     for journee in dico_rencontres_USDH.keys() : 
                                         
-                                        equipe_dom = df[df["journée"] == journee]["domicile"].unique()
-                                        equipe_dom = equipe_dom[0]  # nom de l'équipe jouant à domicile
+                                        if journee != 'J11' :
                                         
-                                        equipe_ext = df[df["journée"] == journee]["extérieur"].unique()
-                                        equipe_ext = equipe_ext[0]  # nom de l'équipe jouant à l'extérieur
-                                        
-                                        
-                                        
-                                        # CAS 1 : si l'équipe jouant à domicile est l'USDH = celle jouant à l'extérieur est son adversaire :
-                                            
-                                        if equipe_dom == "USDH" : 
-                                            
-                                            if situation_numerique == "supériorité numérique" : 
-                                            
-                                                nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
-                                                nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
-                                                    
-                                                    
-                                           
-                                            else :   # situation_numerique == "infériorité numérique"
-                                            
-                                            
-                                                nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
-                                                nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        # CAS 2 : si l'équipe jouant à l'extérieur st l'USDH = celle jouant à domicile est son adversaire :
-                                            
-                                        else :   # equipe_ext == "USDH" : 
-                                            
-                                            
-                                            if situation_numerique == "supériorité numérique" : 
-                                            
-                                            
-                                                nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
-                                                nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
-                                                
-                                            
-                                            else :   # situation_numerique == "infériorité numérique"
-                                            
-                                            
-                                                nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
-                                                nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
-                                            
+                                            equipe_dom = df[df["journée"] == journee]["domicile"].unique()
+                                            equipe_dom = equipe_dom[0]  # nom de l'équipe jouant à domicile
+
+                                            equipe_ext = df[df["journée"] == journee]["extérieur"].unique()
+                                            equipe_ext = equipe_ext[0]  # nom de l'équipe jouant à l'extérieur
+
+
+
+                                            # CAS 1 : si l'équipe jouant à domicile est l'USDH = celle jouant à l'extérieur est son adversaire :
+
+                                            if equipe_dom == "USDH" : 
+
+                                                if situation_numerique == "supériorité numérique" : 
+
+                                                    nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
+                                                    nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
+
+
+
+                                                else :   # situation_numerique == "infériorité numérique"
+
+
+                                                    nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
+                                                    nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
+
+
+
+
+
+
+                                            # CAS 2 : si l'équipe jouant à l'extérieur st l'USDH = celle jouant à domicile est son adversaire :
+
+                                            else :   # equipe_ext == "USDH" : 
+
+
+                                                if situation_numerique == "supériorité numérique" : 
+
+
+                                                    nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
+                                                    nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
+
+
+                                                else :   # situation_numerique == "infériorité numérique"
+
+
+                                                    nbr_periodes_situation_numerique_USDH_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "domicile")
+                                                    nbr_periodes_situation_numerique_adv_journee = nbr_periodes_superiorite(data = df , journee = journee , equipe = "extérieur")
+
                                             
                                             
                                             

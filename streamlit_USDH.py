@@ -13122,7 +13122,12 @@ else :    # bouton_activite != " " :
                                                            equipe = "USDH" , periode = periode)
                     
                     
-                    S_buts_USDH.loc[S_buts_USDH.index + 1] = 24   # on ajoute les buts marqués par l'USDH lors de la J11, dont les faits de jeu n'ont pas été enregistrés.
+                    L_buts_USDH = list(S_buts_USDH)
+                    
+                    L_buts_USDH.append(24)  # on ajoute manuellement les buts marqués par l'USDH lors de la J11, dont les faits de jeu n'ont pas été enregistrés.
+                    
+                    S_buts_USDH = pd.Series(L_buts_USDH)   
+                    
                     
                     
                     
@@ -13131,8 +13136,12 @@ else :    # bouton_activite != " " :
                                                           equipe = "adversaire" , periode = periode)
                     
                     
-                    S_buts_adv.loc[S_buts_adv.index + 1] = 29   # on ajoute les buts marqués par le RACC de Nantes lors de la J11, dont les faits de jeu n'ont pas été enregistrés.
+                    L_buts_adv = list(S_buts_adv)
                     
+                    L_buts_adv.append(29)  # on ajoute manuellement les buts marqués par le RACC de Nantes lors de la J11, dont les faits de jeu n'ont pas été enregistrés.
+                    
+                    
+                    S_buts_adv = list(L_buts_adv)   
                     
                     
                     

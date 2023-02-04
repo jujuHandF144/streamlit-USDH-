@@ -13006,6 +13006,8 @@ else :    # bouton_activite != " " :
     else :    # bouton_activite == "BILAN saison USDH" : 
         
         
+        df = df[df["journée"] != "J11"]
+
         
         st.markdown(f"<h1 style='text-align: center; color: white;'>BILAN saison USDH ({list(dico_rencontres_USDH.keys())[0]} - {list(dico_rencontres_USDH.keys())[-1]}) :</h1>",
                                     unsafe_allow_html = True)  
@@ -14493,10 +14495,10 @@ else :    # bouton_activite != " " :
                                     
                                     if bouton_unite == "total" :
                                     
-                                        temps_situation_numerique_USDH = S_durees_situation_numerique_saison(data = df[df["journée"] != "J11"] , equipe = "USDH" , 
+                                        temps_situation_numerique_USDH = S_durees_situation_numerique_saison(data = df , equipe = "USDH" , 
                                                                                                              situation = situation_numerique).sum()
                                         
-                                        temps_situation_numerique_adv = S_durees_situation_numerique_saison(data = df[df["journée"] != "J11"] , equipe = "adversaire" , 
+                                        temps_situation_numerique_adv = S_durees_situation_numerique_saison(data = df , equipe = "adversaire" , 
                                                                                                             situation = situation_numerique).sum()
                                         
                                         
@@ -14504,10 +14506,10 @@ else :    # bouton_activite != " " :
                                         
                                     else :  # bouton_unite == "moyenne / match"
                                                 
-                                        temps_situation_numerique_USDH = S_durees_situation_numerique_saison(data = df[df["journée"] != "J11"] , equipe = "USDH" , 
+                                        temps_situation_numerique_USDH = S_durees_situation_numerique_saison(data = df , equipe = "USDH" , 
                                                                                                              situation = situation_numerique).mean()
                                         
-                                        temps_situation_numerique_adv = S_durees_situation_numerique_saison(data = df[df["journée"] != "J11"] , equipe = "adversaire" , 
+                                        temps_situation_numerique_adv = S_durees_situation_numerique_saison(data = df , equipe = "adversaire" , 
                                                                                                             situation = situation_numerique).mean()
                                         
                                         

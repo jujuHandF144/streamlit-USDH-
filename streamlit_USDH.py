@@ -91,7 +91,11 @@ dico_rencontres_USDH = {"J1" : ("Pouzauges" , "USDH") ,
                         "J6" : ("USDH" , "Pouzauges") , 
                         "J7" : ("Ligné" , "USDH") , 
                         "J8" : ("USDH" , "Authion") , 
-                        "J9" : ("USDH" , "Connerre")}
+                        "J9" : ("USDH" , "Connerre") , 
+                        "J10" : ("St Berthevin" , "USDH") , 
+                        "J11" : ("RACC Nantes" , "USDH") , 
+                        "J12" : ("USDH" , "St Nazaire") , 
+                        "J13" : ("Talmont" , "USDH")}
 
 
 

@@ -93,7 +93,6 @@ dico_rencontres_USDH = {"J1" : ("Pouzauges" , "USDH") ,
                         "J8" : ("USDH" , "Authion") , 
                         "J9" : ("USDH" , "Connerre") , 
                         "J10" : ("St Berthevin" , "USDH") , 
-                        "J11" : ("RACC Nantes" , "USDH") , 
                         "J12" : ("USDH" , "St Nazaire") , 
                         "J13" : ("Talmont" , "USDH")}
 
@@ -13005,10 +13004,8 @@ else :    # bouton_activite != " " :
         
     else :    # bouton_activite == "BILAN saison USDH" : 
         
-        
-        df = df[df["journée"] != "J11"]
-
-        
+      
+    
         st.markdown(f"<h1 style='text-align: center; color: white;'>BILAN saison USDH ({list(dico_rencontres_USDH.keys())[0]} - {list(dico_rencontres_USDH.keys())[-1]}) :</h1>",
                                     unsafe_allow_html = True)  
         

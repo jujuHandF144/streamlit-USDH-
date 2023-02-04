@@ -698,7 +698,152 @@ def periodes_situation_numerique_USDH(data , journee = "J1" , situation = "infé
     
     
     
+        
+        
+        
+        
+        # Journée 10 : USDH - St Berthevin
+
+        elif journee == "J10" : 
+
+
+            if situation in ["infériorité numérique" , "égalité numérique" , "supériorité numérique"] :
+
+
+                if situation == "infériorité numérique" : 
+
+                    periodes = [('4:16' , '6:16') , ('23:29' , '25:43') , ('46:51' , '48:51')]
+
+
+
+
+
+                elif situation == "supériorité numérique" : 
+
+                    periodes = [('14:29' , '16:29') , ('27:22' , '27:43') , ('48:53' , '50:53') , ('56:23' , '58:23')]
+
+
+
+
+
+                else :   # situation == "égalité numérique" : 
+
+                    periodes = [('0:00' , '4:16') , ('6:16' , '14:29') , ('16:29' , '23:29') , ('25:43' , '27:22') ,  
+                                ('27:43' , '46:51') , ('48:51' , '48:53') , ('50:53' , '56:23') , ('58:23' , '60:00')]
+
+                    
+
+                    
+            else : 
+
+                raise ValueError("paramètre attendu pour l'argument 'situation' : 'infériorité numérique' , 'égalité numérique' ou 'supériorité numérique'.")
     
+
+        
+        
+        
+        
+
+        
+        # Journée 11 : RACC Nantes - USDH (la feuille de match n'a pas été enregistrée !)
+
+        elif journee == "J11" : 
+
+
+            if situation in ["infériorité numérique" , "égalité numérique" , "supériorité numérique"] :
+
+
+                periodes = []
+
+                
+                
+                
+            else : 
+
+                raise ValueError("paramètre attendu pour l'argument 'situation' : 'infériorité numérique' , 'égalité numérique' ou 'supériorité numérique'.")
+        
+        
+        
+        
+        
+
+        
+        
+        # Journée 12 : USDH - St Nazaire
+
+        elif journee == "J12" : 
+
+
+            if situation in ["infériorité numérique" , "égalité numérique" , "supériorité numérique"] :
+
+
+                if situation == "infériorité numérique" : 
+
+                    periodes = [('5:49' , '7:49') , ('43:31' , '45:31')]
+
+
+
+
+
+                elif situation == "supériorité numérique" : 
+
+                    periodes = [('46:58' , '48:58') , ('56:59' , '58:59')]
+
+
+
+
+
+                else :   # situation == "égalité numérique" : 
+
+                    periodes = [('0:00' , '5:49') , ('7:49' , '43:31') , ('45:31' , '46:58') , ('48:58' , '56:59') ,  ('58:59' , '60:00')]
+
+                    
+
+                    
+            else : 
+
+                raise ValueError("paramètre attendu pour l'argument 'situation' : 'infériorité numérique' , 'égalité numérique' ou 'supériorité numérique'.")
+        
+        
+        
+        
+        
+        
+        
+        # Journée 13 : Talmont - USDH
+
+        elif journee == "J13" : 
+
+
+            if situation in ["infériorité numérique" , "égalité numérique" , "supériorité numérique"] :
+
+
+                if situation == "infériorité numérique" : 
+
+                    periodes = [('13:42' , '15:42') , ('42:14' , '44:14')]
+
+
+
+
+
+                elif situation == "supériorité numérique" : 
+
+                    periodes = [('21:12' , '23:12') , ('23:23' , '25:23') , ('35:48' , '37:48') , ('54:15' , '56:15') ,  
+                                ('58:52' , '60:00')]
+
+
+
+
+
+                else :   # situation == "égalité numérique" : 
+
+                    periodes = [('0:00' , '13:42') , ('15:42' , '21:12') , ('23:12' , '23:23') , ('25:23' , '35:48') , 
+                                ('37:48' , '42:14') , ('44:14' , '54:15') , ('56:15' , '58:52')]
+        
+        
+        
+        
+        
     
     
     

@@ -13122,8 +13122,16 @@ else :    # bouton_activite != " " :
                                                            equipe = "USDH" , periode = periode)
                     
                     
+                    S_buts_USDH.loc[S_buts_USDH.index + 1] = 24   # on ajoute les buts marqués par l'USDH lors de la J11, dont les faits de jeu n'ont pas été enregistrés.
+                    
+                    
+                    
+                    
                     S_buts_adv = S_nbr_type_action_saison(data = df , type_action = "buts marqués" , 
                                                           equipe = "adversaire" , periode = periode)
+                    
+                    
+                    S_buts_adv.loc[S_buts_adv.index + 1] = 29   # on ajoute les buts marqués par le RACC de Nantes lors de la J11, dont les faits de jeu n'ont pas été enregistrés.
                     
                     
                     
@@ -13147,8 +13155,8 @@ else :    # bouton_activite != " " :
                     if bouton_unite == "total" : 
                         
                         
-                        nbr_buts_USDH = S_buts_USDH.sum()
-                        nbr_buts_adv = S_buts_adv.sum()
+                        nbr_buts_USDH = S_buts_USDH.sum()  
+                        nbr_buts_adv = S_buts_adv.sum()    
                         
                         differentiel_nbr_buts = nbr_buts_USDH - nbr_buts_adv
                         

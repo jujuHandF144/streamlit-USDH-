@@ -13141,7 +13141,7 @@ else :    # bouton_activite != " " :
                     L_buts_adv.append(29)  # on ajoute manuellement les buts marqués par le RACC de Nantes lors de la J11, dont les faits de jeu n'ont pas été enregistrés.
                     
                     
-                    S_buts_adv = list(L_buts_adv)   
+                    S_buts_adv = pd.Series(L_buts_adv)   
                     
                     
                     

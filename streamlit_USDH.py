@@ -9994,17 +9994,7 @@ if bouton_activite == " " :
         
         st.write("")
         
-                    
-
-    st.write("""--> Cette application n'est accessible QUE par les personnes ayant connaissance du lien ci-dessus : elle ne peut pas êtré trouvée via une recherche internet, 
-                    mais le code informatique utilisé pour son bon fonctionnement est quant à lui stocké sur un dépôt public (car le rendre privé ne permet pas à l'application de fonctionner correctement) : aisni, 
-                    toute personne ayant de bonnes connaissances en data et en programmation peut potentiellement avoir accès au code que j'ai créé. 
-                    Contenant des analyses particulièrement centrées sur l'USDH, il serait donc plus judicieux que le lien de cette application reste connu uniquement des membres et licenciés de l'USDH.  
-                    Je ne fournirai pour ma part le lien à aucune autre personne que celles du club.""") 
-    
-    
- 
-    
+                
     
     for i in range(5) : 
         
@@ -15574,3 +15564,4 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+

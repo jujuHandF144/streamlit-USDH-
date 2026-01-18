@@ -10011,7 +10011,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- 4) Absence de chargement.")
+    st.header("- 3) Absence de chargement.")
     
     
     
@@ -10035,19 +10035,18 @@ if bouton_activite == " " :
         
         
         
-    st.header("- 5) Gestion des erreurs / bugs.")
+    st.header("- 4) Mise en veille de l'application.")
     
     
     
     for i in range(3) : 
         
         st.write("")
-                    
-                    
-                    
-    st.write("""--> A priori, tous les bugs et toutes les erreurs ont été résolues avant le lancement de cette application : cependant, si de telles anomalies devaient subvenir (message 
-                    d'erreur et/ou apparition d'un encadré rouge incompréhensible), ne pas hésiter à me contacter afin que je me penche sur leur résolution.""")
-    
+                     
+                     
+                     
+    st.write("""--> Au bout d'un certain sans l'utiliser, l'application se met en veille : dans ce cas, il vous sera sûrement demandé de cliquer sur un bouton afin de 
+                    'réveiller' l'application. Dans le cas contraire, me tenir informé afin de remédier au problème.""")
     
     
     
@@ -10058,29 +10057,7 @@ if bouton_activite == " " :
         
         
         
-    st.header("- 6) Mise en veille de l'application.")
-    
-    
-    
-    for i in range(3) : 
-        
-        st.write("")
-                     
-                     
-                     
-    st.write("""--> Il est possible qu'un NON usage prolongé de l'application entraîne sa mise en veille : dans ce cas, il vous sera sûrement demandé de cliquer sur un bouton afin de 
-                    'réveiller' l'application. Dans le cas contraire, me tenir au courant afin de remédier au problème.""")
-    
-    
-    
-    for i in range(5) : 
-        
-        st.write("")
-        
-        
-        
-        
-    st.header("- 7) Extension de l'application à un usage plus large.")
+    st.header("- 5) Extension de l'application à un usage plus large.")
     
     
     
@@ -15544,5 +15521,6 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+
 
 

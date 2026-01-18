@@ -9983,28 +9983,8 @@ if bouton_activite == " " :
         
         st.write("")
         
-        
-        
-        
-        
-    st.header("- 2) Accessibilité de l'outil.")
-    
-    
-    for i in range(3) : 
-        
-        st.write("")
-        
-                
-    
-    for i in range(5) : 
-        
-        st.write("")
-        
-        
-        
-        
-        
-    st.header("- 3) Temps de chargement.")
+     
+    st.header("- 2) Temps de chargement.")
     
     
     
@@ -15564,4 +15544,5 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+
 

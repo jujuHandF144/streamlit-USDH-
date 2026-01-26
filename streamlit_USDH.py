@@ -125,18 +125,18 @@ dico_couleurs = {"USDH" : "red" ,
 
 ### DICTIONNAIRE DES LIENS VERS LES PHOTOS DES LOGOS ASSOCIEES A CHAQUE EQUIPE DU CHAMPIONNAT SM1 2022-2023 : 
 
-dico_logos = {"USDH" : "logo_USDH.png" ,
-              "Pouzauges" : "logo_pouzauges.png" ,
-              "Ligné" : "logo_ligne.png" ,  
-              "Authion" : "logo_authion.png" , 
-              "Connerre" : "logo_la_ferte.png" ,
-              "St Berthevin" : "logo_saint_berthevin.png" ,  
-              "Clisson" : "logo_clisson.png" ,  
-              "RACC Nantes" : "logo_racc_nantes.png" , 
-              "Chabossière" : "logo_la_chabossiere.png" , 
-              "St Nazaire" : "logo_saint_nazaire.png" , 
-              "Talmont" : "logo_talmont.png", 
-              "La Ferrière" : "logo_la_ferriere.jpg"} 
+dico_logos = {"USDH" : "./Logos/USDH.png" ,
+              "Pouzauges" : "./Logos/pouzauges.png" ,
+              "Ligné" : "./Logos/ligne.png" ,  
+              "Authion" : "./Logos/authion.png" , 
+              "Connerre" : "./Logos/la_ferte.png" ,
+              "St Berthevin" : "./Logos/saint_berthevin.png" ,  
+              "Clisson" : "./Logos/clisson.png" ,  
+              "RACC Nantes" : "./Logos/racc_nantes.png" , 
+              "Chabossière" : "./Logos/la_chabossiere.png" , 
+              "St Nazaire" : "./Logos/saint_nazaire.png" , 
+              "Talmont" : "./Logos/talmont.png", 
+              "La Ferrière" : "./Logos/la_ferriere.png"} 
 
 
 
@@ -15521,6 +15521,7 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+
 
 
 
